@@ -25,7 +25,10 @@ array1 [-6] - will find 'ann' if searches from right to left, but no zero index.
 
 # How would you perform an operation on every element inside an Array?
 
-Replace me with your response...
+You can use Iterating to change every element within the array.
+
+array1 = ['jay', 'bernal', 'julio', 'melissa', 'ann', 'aria', 'maggie', 'cindee', 'chris']
+array1.each {|i| puts i.upcase }
 
 # How do you add elements to an Array?
 
